@@ -46,5 +46,3 @@ This project is a real-time polling application integrated with a chat feature. 
    npm start
    ```
 4. Open your browser and navigate to `http://localhost:3000`.
-
-## Folder Structure
