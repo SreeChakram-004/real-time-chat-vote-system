@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#poll, #chat {
+    width: 80%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#options button:hover {
+    background: #0056b3;
+}
+
+#results p {
+    margin: 5px 0;
+    padding: 5px;
+    color: white;
+}
+
+.highest {
+    background-color: green;
+}
+
+.middle {
+    background-color: yellow;
+    color: black; /* for better contrast */
+}
+
+.lowest {
+    background-color: red;
+}
+
+#messages {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+#messages .message {
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#messages .message p {
+    margin: 0;
+}
+
+.my-message {
+    background: #d1ffd1;
+    align-self: flex-end;
+}
+
+.other-message {
+    background: #f1f1f1;
+    align-self: flex-start;
+}
+
+#messageInput {
+    width: calc(100% - 60px);
+    padding: 10px;
+}
+
+#sendButton {
+    width: 50px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#sendButton:hover {
+    background: #0056b3;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+
+#usernameInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+#loginButton {
+    padding: 10px;
+    width: 100px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#loginButton:hover {
+    background: #0056b3;
+}
