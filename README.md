@@ -32,7 +32,7 @@ This project is a real-time polling application integrated with a chat feature. 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-repo/real-time-polling-app.git
+   git clone https://github.com/your-repo/real-time-chat-vote-system.git
    cd real-time-polling-app
    ```
 2. Install the dependencies:
