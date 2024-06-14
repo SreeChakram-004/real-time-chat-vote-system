@@ -7,6 +7,11 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 app.use(express.static('public'));
+const corsOptions = {
+    origin: '*',
+    methods: ['GET', 'POST']
+};
+app.use(cors(corsOptions));
 
 let pollData = {
     question: "Does idli make you fat?",
